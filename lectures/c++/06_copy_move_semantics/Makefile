@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SRC = 00_surprise.cc      \
       01_default.cc       \
       02_default.cc       \
@@ -5,6 +6,15 @@ SRC = 00_surprise.cc      \
       04_buggy_vector.cc  \
       05_copy_move.cc     \
       06_copy_on_write.cc
+=======
+SRC = 01_surprise.cc      \
+      02_default.cc       \
+      03_default.cc       \
+      04_buggy_vector.cc  \
+      05_buggy_vector.cc  \
+      06_copy_move.cc     \
+      07_copy_on_write.cc
+>>>>>>> upstream/master
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -g -std=c++11
