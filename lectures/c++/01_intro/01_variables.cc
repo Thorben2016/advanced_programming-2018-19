@@ -47,12 +47,19 @@ int main() {
         std::cout << var << "\n";
 
         var += 7;
+        std::cout << var << "\n";
         var -= 7;
+        std::cout << var << "\n";
         var *= 7;
+        std::cout << var << "\n";
         var /= 7;
+        std::cout << var << "\n";
         var %= 7;
+        std::cout << var << "\n";
         var++;
+        std::cout << var << "\n";
         ++var;
+        std::cout << var << "\n";
 
         var = a + b; // works also for strings
         var = a - b;
