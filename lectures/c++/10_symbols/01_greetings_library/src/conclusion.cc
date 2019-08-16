@@ -3,10 +3,10 @@
 
 void print_conclusion() {
 #ifdef ITALIANO
-  std::cout << "Ci vediamo giovedì\n";
+        std::cout << "Ci vediamo giovedì\n";
 #endif
 
 #ifdef ENGLISH
-  std::cout << "See you on Thursday\n";
+        std::cout << "See you on Thursday\n";
 #endif
 }
