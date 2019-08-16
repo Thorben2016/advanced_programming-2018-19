@@ -2,6 +2,7 @@
 #include <string>
 
 struct Foo {
+
         int _i;
         double _d;
         std::string _s;
