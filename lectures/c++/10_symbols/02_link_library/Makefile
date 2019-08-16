@@ -27,5 +27,3 @@ clean:
 	rm -rf src/*.o main.o $(EXE) */*~ *~
 
 .PHONY: clean all format
-
-
